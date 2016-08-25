@@ -884,7 +884,8 @@ void CPlayerPlaylistBar::SavePlaylist()
         if (AfxGetAppSettings().bRememberPlaylistItems) {
             // Only create this folder when needed
             if (!PathUtils::Exists(base)) {
-                ::CreateDirectory(base, nullptr);
+				PathUtils::CreateDirRecursive(base);
+                //::CreateDirectory(base, nullptr);
             }
 
             SaveMPCPlayList(p, CTextFile::UTF8, false);

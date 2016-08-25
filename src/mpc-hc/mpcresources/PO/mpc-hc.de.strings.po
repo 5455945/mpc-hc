@@ -3528,8 +3528,8 @@ msgid "Contrast: %s"
 msgstr "Kontrast: %s"
 
 msgctxt "IDS_OSD_HUE"
-msgid "Hue: %s°"
-msgstr "Farbton: %s°"
+msgid "Hue: %s"
+msgstr ""
 
 msgctxt "IDS_OSD_SATURATION"
 msgid "Saturation: %s"

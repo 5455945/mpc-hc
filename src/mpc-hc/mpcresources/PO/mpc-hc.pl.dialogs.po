@@ -191,8 +191,8 @@ msgid "About"
 msgstr "O programie"
 
 msgctxt "IDD_ABOUTBOX_IDC_AUTHORS_LINK"
-msgid "Copyright © 2002-2015 see Authors.txt"
-msgstr "Copyright © 2002-2015 szczegóły w pliku Authors.txt"
+msgid "Copyright ?2002-2015 see Authors.txt"
+msgstr ""
 
 msgctxt "IDD_ABOUTBOX_IDC_STATIC"
 msgid "This program is freeware and released under the GNU General Public License."
@@ -983,8 +983,8 @@ msgid "Spacing"
 msgstr "Odstępy:"
 
 msgctxt "IDD_PPAGESUBSTYLE_IDC_STATIC"
-msgid "Angle (z,°)"
-msgstr "Kąt (z,°):"
+msgid "Angle (z,?"
+msgstr ""
 
 msgctxt "IDD_PPAGESUBSTYLE_IDC_STATIC"
 msgid "Scale (x,%)"

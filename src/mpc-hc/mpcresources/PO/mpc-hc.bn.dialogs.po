@@ -192,8 +192,8 @@ msgid "About"
 msgstr "MPC-HC বিষয়ক"
 
 msgctxt "IDD_ABOUTBOX_IDC_AUTHORS_LINK"
-msgid "Copyright © 2002-2015 see Authors.txt"
-msgstr "কপিরাইট © ২০০২-২০১৫ বিস্তারিত দেখুন Authors.txtএ"
+msgid "Copyright ?2002-2015 see Authors.txt"
+msgstr ""
 
 msgctxt "IDD_ABOUTBOX_IDC_STATIC"
 msgid "This program is freeware and released under the GNU General Public License."
@@ -984,8 +984,8 @@ msgid "Spacing"
 msgstr "বর্ণমধ্যবর্তী ফাঁক"
 
 msgctxt "IDD_PPAGESUBSTYLE_IDC_STATIC"
-msgid "Angle (z,°)"
-msgstr "কৌণিকচ্যুতি (z,°)"
+msgid "Angle (z,?"
+msgstr ""
 
 msgctxt "IDD_PPAGESUBSTYLE_IDC_STATIC"
 msgid "Scale (x,%)"

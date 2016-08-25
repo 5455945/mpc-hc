@@ -3527,8 +3527,8 @@ msgid "Contrast: %s"
 msgstr "التباين: %s"
 
 msgctxt "IDS_OSD_HUE"
-msgid "Hue: %s°"
-msgstr "تدرج اللون: %s°"
+msgid "Hue: %s"
+msgstr ""
 
 msgctxt "IDS_OSD_SATURATION"
 msgid "Saturation: %s"

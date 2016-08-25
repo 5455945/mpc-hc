@@ -627,7 +627,7 @@ void CPlayerCaptureDialog::InitControls()
             HRESULT hr = SHGetFolderPath(nullptr, CSIDL_PERSONAL, nullptr, 0, m_file.GetBuffer(MAX_PATH));
             m_file.ReleaseBuffer();
             if (SUCCEEDED(hr)) {
-                m_file.Append(_T("\\MPC-HC Capture"));
+                m_file.Append(_T("\\i@free Capture"));
                 if (!PathFileExists(m_file)) {
                     VERIFY(CreateDirectory(m_file, nullptr));
                 }

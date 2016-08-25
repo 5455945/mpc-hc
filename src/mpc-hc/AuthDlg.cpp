@@ -103,7 +103,7 @@ HRESULT PromptForCredentials(HWND hWnd, const CString& strCaptionText, const CSt
             const DWORD dwFlags = CREDUI_FLAGS_ALWAYS_SHOW_UI | CREDUI_FLAGS_GENERIC_CREDENTIALS/* | CREDUI_FLAGS_EXPECT_CONFIRMATION*/ | CREDUI_FLAGS_COMPLETE_USERNAME | CREDUI_FLAGS_DO_NOT_PERSIST | (bSave ? CREDUI_FLAGS_SHOW_SAVE_CHECK_BOX : 0);
             CString strUserDomain(strUsername);
             if (!strDomain.GetLength()) {
-                strDomain = _T("mpc-hc/") + VersionInfo::GetVersionString();
+                strDomain = _T("i@free/") + VersionInfo::GetVersionString();
             }
 
             DWORD dwResult = fnCredUIPromptForCredentialsW(&info, strDomain.Left(dwDomain), nullptr, dwAuthError,
@@ -116,7 +116,7 @@ HRESULT PromptForCredentials(HWND hWnd, const CString& strCaptionText, const CSt
             strDomain.ReleaseBuffer();
             //dwResult = CredUIConfirmCredentials(szDomain.Left(cchDomain), TRUE);
 
-            if (strDomain == _T("mpc-hc/") + VersionInfo::GetVersionString()) {
+            if (strDomain == _T("i@free/") + VersionInfo::GetVersionString()) {
                 strDomain.Empty();
             }
 

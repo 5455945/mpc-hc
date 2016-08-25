@@ -3523,8 +3523,8 @@ msgid "Contrast: %s"
 msgstr "ความตัดกัน: %s"
 
 msgctxt "IDS_OSD_HUE"
-msgid "Hue: %s°"
-msgstr "สีสัน: %s°"
+msgid "Hue: %s"
+msgstr ""
 
 msgctxt "IDS_OSD_SATURATION"
 msgid "Saturation: %s"

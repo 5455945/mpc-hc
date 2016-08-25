@@ -48,9 +48,9 @@ void CrashReporter::Enable(LPCTSTR langDll /*= nullptr*/)
     crash_rpt::ApplicationInfo appInfo = {
         sizeof(appInfo),
         "31c48823-ce52-401b-8425-888388161757",
-        "mpc-hc",
-        L"MPC-HC",
-        L"MPC-HC Team",
+        "i@free",
+        L"i@free",
+        L"i@free",
         {
             USHORT(VersionInfo::GetMajorNumber()),
             USHORT(VersionInfo::GetMinorNumber()),

@@ -176,18 +176,18 @@ BEGIN
     BEGIN
         BLOCK "040904b0"
         BEGIN
-            VALUE "Comments",         "Based on the original Media Player Classic v6.4.9.0 © Gabest"
+            VALUE "Comments",         "i@free Media Player"
             VALUE "CompanyName",      MPC_COMP_NAME_STR
-            VALUE "FileDescription",  "MPC-HC"
+            VALUE "FileDescription",  "i@free Media Player"
             VALUE "FileVersion",      MPC_VERSION_STR_FULL
-            VALUE "InternalName",     "mpc-hc"
+            VALUE "InternalName",     "i@free Media Player"
             VALUE "LegalCopyright",   MPC_COPYRIGHT_STR
 #ifdef _WIN64
-            VALUE "OriginalFilename", "mpc-hc64.exe"
+            VALUE "OriginalFilename", "i@free Media Player64.exe"
 #else
-            VALUE "OriginalFilename", "mpc-hc.exe"
+            VALUE "OriginalFilename", "i@free Media Player.exe"
 #endif
-            VALUE "ProductName",      "MPC-HC"
+            VALUE "ProductName",      "i@free Media Player"
             VALUE "ProductVersion",   MPC_VERSION_STR_FULL
         END
     END

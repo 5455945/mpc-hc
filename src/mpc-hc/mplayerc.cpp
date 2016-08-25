@@ -734,7 +734,7 @@ bool CMPlayerCApp::StoreSettingsToRegistry()
     free((void*)m_pszRegistryKey);
     m_pszRegistryKey = nullptr;
 
-    SetRegistryKey(_T("MPC-HC"));
+    SetRegistryKey(_T("i@free"));
 
     return true;
 }
@@ -772,7 +772,7 @@ bool CMPlayerCApp::GetAppDataPath(CString& path)
         return false;
     }
     CPath p;
-    p.Combine(path, _T("MPC-HC"));
+    p.Combine(path, _T("i@free\\i@free Media Player"));
     path = (LPCTSTR)p;
 
     return true;
@@ -961,7 +961,7 @@ void CMPlayerCApp::FlushProfile(bool bForce/* = true*/)
         CStdioFile file(fp);
         CString line;
         try {
-            file.WriteString(_T("; MPC-HC\n"));
+            file.WriteString(_T("; i@free\n"));
             for (auto it1 = m_ProfileMap.begin(); it1 != m_ProfileMap.end(); ++it1) {
                 line.Format(_T("[%s]\n"), it1->first);
                 file.WriteString(line);
@@ -1721,7 +1721,7 @@ BOOL CMPlayerCApp::InitInstance()
 
     if (!IsIniValid()) {
         CRegKey key;
-        if (ERROR_SUCCESS == key.Create(HKEY_CURRENT_USER, _T("Software\\MPC-HC\\MPC-HC"))) {
+        if (ERROR_SUCCESS == key.Create(HKEY_CURRENT_USER, _T("Software\\i@free\\i@free Media Player"))) {
             if (RegQueryValueEx(key, _T("ExePath"), 0, nullptr, nullptr, nullptr) != ERROR_SUCCESS) { // First launch
                 // Move registry settings from the old to the new location
                 CRegKey oldKey;
